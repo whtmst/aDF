@@ -28,7 +28,6 @@ local last_target_change_time = GetTime()
 
 aDFSpells = {
 	["Sunder Armor"] = "Sunder Armor",
-	["Crusader Strike"] = "Crusader Strike",
 	["Armor Shatter"] = "Armor Shatter",
 	["Faerie Fire"] = "Faerie Fire",
 	["Nightfall"] = "Spell Vulnerability",
@@ -49,7 +48,6 @@ aDFSpells = {
 
 aDFDebuffs = {
 	["Sunder Armor"] = "Interface\\Icons\\Ability_Warrior_Sunder",
-	["Crusader Strike"] = "Interface\\Icons\\Spell_Holy_crusaderstrike",
 	["Armor Shatter"] = "Interface\\Icons\\INV_Axe_12",
 	["Faerie Fire"] = "Interface\\Icons\\Spell_Nature_FaerieFire",
 	["Nightfall"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
@@ -254,7 +252,7 @@ function aDF.Create_frame(name)
 	frame.nr = frame:CreateFontString(nil, "OVERLAY")
 	frame.nr:SetPoint("CENTER", frame, "CENTER", 0, 0)
 	frame.nr:SetFont("Fonts\\FRIZQT__.TTF", 16+gui_Optionsxy)
-	frame.nr:SetTextColor(255, 255, 255, 1)
+	frame.nr:SetTextColor(255, 255, 0, 1)
 	frame.nr:SetShadowOffset(2,-2)
 	frame.nr:SetText("1")
 	--DEFAULT_CHAT_FRAME:AddMessage("----- Adding new frame")
