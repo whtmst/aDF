@@ -1,4 +1,4 @@
-# aDF for WoW 1.12
+# aDF for Turtle WoW
 aDF adds a small HUD that standardizes critical info about your target's defences, including Armor, ~~Resists~~, and specific debuffs. This HUD should be useful to all DPS and Tank players who would play differently depending on the state of their enemy's defenses and vulnerabilities.
 
 ![image](https://github.com/Zebouski/aDF/assets/11151284/d4f9b479-4498-4ec7-88c8-501f9cf759b5)
