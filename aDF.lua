@@ -102,10 +102,12 @@ aDFArmorVals = {
 	[465]  = "Curse of Recklessness R3",
 	[290]  = "Curse of Recklessness R2",
 	[140]  = "Curse of Recklessness R1",
-	[600]  = "Annihilator x3 ?",
-	[400]  = "Annihilator x2 ?",
-	[200]  = "Annihilator x1 ?",
-	[50]   = "Torch of Holy Flame",
+	[600]  = "Annihilator x3 ?", --
+	[400]  = "Annihilator x2 ?", -- Armor Shatter spell=16928, or Puncture Armor r2 spell=17315
+	[200]  = "Annihilator x1 ?", --
+	[50]   = "Torch of Holy Flame", -- Can also be spell=13526, item=1434 but those conflict FF
+	[100]  = "Weapon Proc Faerie Fire", -- non-stacking proc spell=13752, Puncture Armor r1 x1 spell=11791
+	[300]  = "Weapon Proc Faerie Fire", -- Dark Iron Sunderer item=11607, Puncture Armor r1 x3
 }
 
 function aDF_Default()
